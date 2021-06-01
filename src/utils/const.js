@@ -1,5 +1,5 @@
 // const
-const MAPBOX_TOKEN = 'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+const MAPBOX_TOKEN = 'pk.eyJ1Ijoib2Frd2VuIiwiYSI6ImNraWpqbHZ2bTAwazEyd3F3cjJyanRrdmkifQ.QYasBp-GgAJvgtpusu3yow';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -12,7 +12,7 @@ const MUNICIPALITY_CITIES_ARR = [
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
-const CHINESE_INFO_MESSAGE = (yearLength, year) => `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
+const CHINESE_INFO_MESSAGE = (yearLength, year) => `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 年的数据`;
 const ENGLISH_INFO_MESSAGE = (yearLength, year) => `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
 
 // not support English for now
